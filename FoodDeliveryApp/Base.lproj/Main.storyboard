@@ -19,8 +19,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0ew-bB-oBp">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0ew-bB-oBp">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="Iyx-vq-0HM" customClass="HeaderView" customModule="FoodDeliveryApp" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="510"/>
@@ -36,7 +36,7 @@
                                                 <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                             </collectionViewFlowLayout>
                                             <cells>
-                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeaderCollectionViewCell" id="437-CL-sqF" customClass="HeaderCollectionViewCell" customModule="Diwi" customModuleProvider="target">
+                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeaderCollectionViewCell" id="437-CL-sqF" customClass="HeaderCollectionViewCell" customModule="FoodDeliveryApp" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="c8J-K2-vTc">
@@ -264,8 +264,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0ew-bB-oBp" secondAttribute="bottom" id="7ig-Zm-OXt"/>
-                            <constraint firstItem="0ew-bB-oBp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hId-zU-Lb2"/>
+                            <constraint firstAttribute="bottom" secondItem="0ew-bB-oBp" secondAttribute="bottom" id="7ig-Zm-OXt"/>
+                            <constraint firstItem="0ew-bB-oBp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hId-zU-Lb2"/>
                             <constraint firstItem="0ew-bB-oBp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hkw-zL-qC1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0ew-bB-oBp" secondAttribute="trailing" id="rR5-IV-bab"/>
                         </constraints>
